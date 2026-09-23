@@ -1,0 +1,3 @@
+name: azure-windows-vm
+description: Azure Windows 11 Enterprise VM with Pulumi.
+runtime: python
