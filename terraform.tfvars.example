@@ -1,0 +1,23 @@
+# Azure Region
+location = "polandcentral"
+
+# Resource Group
+resource_group_name = "demo-dev-rg"
+
+# Environment and Project
+environment = "dev"
+project     = "demo"
+owner       = "your-name"
+
+# Networking
+vnet_address_space    = ["10.0.0.0/16"]
+app_subnet_prefix     = "10.0.1.0/24"
+bastion_subnet_prefix = "10.0.2.0/26"
+
+# Virtual Machine
+vm_name        = "demo-dev-vm"
+vm_size        = "Standard_B2as_v2"
+admin_username = "azureuser"
+
+# Local SSH Public Key
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
